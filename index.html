@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahamat Kore | Data Engineer & Data Analyst</title>
+    <meta name="description" content="Portfolio de Mahamat Kore, Data Engineer & Data Analyst avec 3 ans d'expérience (SQL Server, Python, Power BI, SSIS, DWH). Disponible dès décembre 2026.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-glow {
+            background: radial-gradient(circle at 75% 35%, rgba(14, 165, 233, 0.18) 0%, rgba(79, 70, 229, 0.12) 40%, rgba(2, 6, 23, 0) 75%);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200 antialiased selection:bg-sky-500 selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="#" class="text-xl font-bold tracking-tight text-white">
+                    Mahamat<span class="text-sky-400">.Data</span>
+                </a>
+                <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                    <a href="#apropos" class="hover:text-sky-400 transition">À propos</a>
+                    <a href="#experiences" class="hover:text-sky-400 transition">Expériences</a>
+                    <a href="#projets" class="hover:text-sky-400 transition">Projets</a>
+                    <a href="#competences" class="hover:text-sky-400 transition">Compétences</a>
+                    <a href="#formation" class="hover:text-sky-400 transition">Formation</a>
+                </div>
+                <div class="flex items-center gap-3">
+                    <!-- Lien LinkedIn Navbar -->
+                    <a href="https://www.linkedin.com/in/korè-mahamat-649763193" target="_blank" rel="noopener noreferrer" aria-label="Profil LinkedIn"
+                        class="w-9 h-9 rounded-lg bg-slate-800 hover:bg-[#0A66C2] text-slate-200 hover:text-white border border-slate-700 flex items-center justify-center transition">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="#contact" class="px-4 py-2 rounded-lg bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold text-sm transition">
+                        Me contacter
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="apropos" class="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <div class="absolute inset-0 hero-glow pointer-events-none"></div>
+
+        <div class="max-w-6xl mx-auto relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="flex-1 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-medium">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                        Disponible dès Décembre 2026 • Mobilité France entière
+                    </div>
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
+                        Mahamat Kore <br>
+                        <span class="gradient-text">Data Engineer & Data Analyst</span>
+                    </h1>
+                    <p class="text-lg text-slate-400 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Avec 3 ans d'expérience en ingénierie des données, Business Intelligence et gestion de données produits, je conçois des pipelines ETL robustes, des architectures décisionnelles (DWH) et des tableaux de bord stratégiques pour transformer la donnée brute en levier de décision.
+                    </p>
+                    <div class="flex flex-wrap justify-center lg:justify-start gap-4 pt-2">
+                        <a href="#projets" class="px-6 py-3 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold transition flex items-center gap-2">
+                            <i class="fa-solid fa-folder-open"></i> Découvrir mes projets
+                        </a>
+                        <!-- Bouton LinkedIn Hero -->
+                        <a href="https://www.linkedin.com/in/korè-mahamat-649763193" target="_blank" rel="noopener noreferrer"
+                            class="px-6 py-3 rounded-xl bg-[#0A66C2]/20 hover:bg-[#0A66C2] text-sky-300 hover:text-white font-semibold border border-[#0A66C2]/50 transition flex items-center gap-2">
+                            <i class="fa-brands fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="#contact" class="px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold border border-slate-700 transition flex items-center gap-2">
+                            <i class="fa-solid fa-paper-plane"></i> Me contacter
+                        </a>
+                    </div>
+                    <div class="flex flex-wrap justify-center lg:justify-start gap-6 pt-4 text-sm text-slate-400">
+                        <span><i class="fa-solid fa-location-dot text-sky-400 mr-2"></i>Aix-en-Provence (13100)</span>
+                        <span><i class="fa-solid fa-car text-sky-400 mr-2"></i>Permis B & Véhiculé</span>
+                    </div>
+                </div>
+                
+                <!-- Profile Card avec Photo Grand Format -->
+                <div class="w-full max-w-md">
+                    <div class="bg-slate-900/90 backdrop-blur-md border border-slate-800 hover:border-sky-500/40 transition rounded-3xl p-6 shadow-2xl relative overflow-hidden">
+                        <div class="absolute -top-10 -right-10 w-40 h-40 bg-sky-500/15 rounded-full blur-3xl pointer-events-none"></div>
+                        
+                        <div class="w-full h-80 sm:h-96 rounded-2xl overflow-hidden mb-6 border border-sky-500/20 shadow-lg bg-gradient-to-b from-[#041d56] to-[#020c2b] relative">
+                            <img src="photoKorePro.jpg" alt="Mahamat Kore" class="w-full h-full object-cover object-top">
+                            <div class="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
+                        </div>
+
+                        <h3 class="text-xl font-bold text-white">Profil Hybride Data & BI</h3>
+                        <p class="text-sm text-slate-400 mt-1 mb-5">De l'ingestion ETL à la restitution décisionnelle.</p>
+                        
+                        <div class="space-y-3 text-sm">
+                            <div class="flex justify-between py-2 border-b border-slate-800">
+                                <span class="text-slate-400">Expérience</span>
+                                <span class="font-semibold text-white">3 ans</span>
+                            </div>
+                            <div class="flex justify-between py-2 border-b border-slate-800">
+                                <span class="text-slate-400">Diplôme</span>
+                                <span class="font-semibold text-white">Master 2 Data Science</span>
+                            </div>
+                            <div class="flex justify-between py-2 border-b border-slate-800">
+                                <span class="text-slate-400">Cœur de stack</span>
+                                <span class="font-semibold text-sky-400">SQL, Python, Power BI, SSIS</span>
+                            </div>
+                            <div class="flex justify-between py-2">
+                                <span class="text-slate-400">Secteurs</span>
+                                <span class="font-semibold text-white">Banque, Transport, Paiement</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expériences Professionnelles -->
+    <section id="experiences" class="py-20 bg-slate-900/50 border-y border-slate-800/80 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="mb-12">
+                <h2 class="text-3xl font-bold text-white">Parcours Professionnel</h2>
+                <p class="text-slate-400 mt-2">Mes expériences concrètes au sein de grands groupes et acteurs majeurs.</p>
+            </div>
+
+            <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-sky-500 before:via-slate-700 before:to-transparent">
+                
+                <!-- Exp 1 -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-sky-500 bg-slate-950 text-sky-400 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                        <i class="fa-solid fa-database text-sm"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-sky-500/50 transition">
+                        <div class="flex flex-wrap justify-between items-center gap-2 mb-2">
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-sky-500/10 text-sky-400">Depuis Juin 2026</span>
+                            <span class="text-xs text-slate-400">Fiducial</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Gestionnaire de Données Produits</h3>
+                        <ul class="mt-3 space-y-2 text-sm text-slate-300 list-disc list-inside">
+                            <li>Saisie, fiabilisation et mise à jour des référentiels produits dans l'ERP.</li>
+                            <li>Création de nouvelles références et contrôle de la complétude des fiches.</li>
+                            <li>Coordination fournisseurs et gestion des bases acheteurs / demandes de tarifs.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Exp 2 -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-sky-500 bg-slate-950 text-sky-400 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                        <i class="fa-solid fa-gears text-sm"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-sky-500/50 transition">
+                        <div class="flex flex-wrap justify-between items-center gap-2 mb-2">
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-indigo-500/10 text-indigo-400">Oct. 2025 – Mars 2026</span>
+                            <span class="text-xs text-slate-400">Crédit Agricole (Siège)</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Consultant Data Engineer</h3>
+                        <ul class="mt-3 space-y-2 text-sm text-slate-300 list-disc list-inside">
+                            <li>Recueil des besoins métier et migration/optimisation d'objets SQL (tables, vues, procédures, fonctions).</li>
+                            <li>Conception de pipelines ETL multi-sources (BDD, Excel, CSV, TXT) vers l'entrepôt de données (DWH).</li>
+                            <li>Validation et recette de la qualité des données migrées (volumétrie, conformité).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Exp 3 -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-sky-500 bg-slate-950 text-sky-400 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                        <i class="fa-solid fa-chart-line text-sm"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-sky-500/50 transition">
+                        <div class="flex flex-wrap justify-between items-center gap-2 mb-2">
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-sky-500/10 text-sky-400">Oct. 2023 – Sept. 2025</span>
+                            <span class="text-xs text-slate-400">Keolis Pays d'Aix (Alternance)</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Data Analyst & Administrateur Bases de Données</h3>
+                        <ul class="mt-3 space-y-2 text-sm text-slate-300 list-disc list-inside">
+                            <li>Conception et maintenance de flux ETL sous Microsoft SSIS et modélisation en étoile (faits & dimensions).</li>
+                            <li>Développement de tableaux de bord décisionnels Power BI (mesures DAX, Power Query).</li>
+                            <li>Création d'applications métiers Power Apps et automatisation de flux via Power Automate.</li>
+                            <li>Administration SQL Server : sauvegardes, surveillance des logs et scripts d'alerte sur les jobs.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Exp 4 -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-slate-700 bg-slate-950 text-slate-400 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                        <i class="fa-solid fa-chart-pie text-sm"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-sky-500/50 transition">
+                        <div class="flex flex-wrap justify-between items-center gap-2 mb-2">
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-slate-800 text-slate-300">Avril 2023 – Août 2023</span>
+                            <span class="text-xs text-slate-400">Monext (Stage)</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Développeur Business Intelligence & Suivi de Production</h3>
+                        <ul class="mt-3 space-y-2 text-sm text-slate-300 list-disc list-inside">
+                            <li>Traitement, analyse de données monétiques et suivi de production.</li>
+                            <li>Création de rapports décisionnels et restitutions visuelles sous SAP BusinessObjects (BO) et Power BI.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets Réalisés -->
+    <section id="projets" class="py-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div class="mb-12">
+            <h2 class="text-3xl font-bold text-white">Réalisations & Projets Techniques</h2>
+            <p class="text-slate-400 mt-2">Sélection de projets développés en entreprise et durant mon cursus académique.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+            <!-- Projet 1 -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-sky-500/50 transition flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-semibold uppercase tracking-wider text-sky-400">Data Engineering & BI • Keolis</span>
+                        <i class="fa-solid fa-server text-slate-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Architecture Décisionnelle & Monitoring SQL Server</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-4">
+                        Mise en place complète d'une chaîne décisionnelle : modélisation dimensionnelle (tables de faits et dimensions), développement de packages ETL SSIS, création de rapports Power BI et déploiement de scripts d'alerte automatisés pour superviser l'exécution des jobs et les sauvegardes.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 pt-4 border-t border-slate-800/80">
+                    <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-sky-300">SQL Server</span>
+                    <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-sky-300">SSIS</span>
+                    <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-sky-300">Power BI</span>
+                    <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-sky-300">T-SQL</span>
+                </div>
+            </div>
+
+            <!-- Projet 2 -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-sky-500/50 transition flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-semibold uppercase tracking-wider text-indigo-400">Migration & DWH • Crédit Agricole</span>
+                        <i class="fa-solid fa-code-branch text-slate-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Migration de Bases de Données & Pipelines DWH</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-4">
+                        Refonte et migration d'objets SQL critiques (procédures stockées, vues, fonctions) et construction de flux d'intégration hétérogènes alimentant le Data Warehouse central avec contrôle automatisé de la volumétrie et de la conformité des données.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 pt-4 border-t border-slate-800/80">
+                    <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-indigo-300">ETL</span>
+                    <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-indigo-300">Data Warehouse</span>
+                    <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-indigo-300">SQL Avancé</span>
+                    <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-indigo-300">Data Quality</span>
+                </div>
+            </div>
+
+            <!-- Projet 3 -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-sky-500/50 transition flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-semibold uppercase tracking-wider text-emerald-400">Low-Code & Automatisation • Keolis</span>
+                        <i class="fa-solid fa-bolt text-slate-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Digitalisation des Processus via Power Platform</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-4">
+                        Conception d'applications métiers sur mesure sous Power Apps couplées à des workflows automatisés Power Automate pour fluidifier la saisie terrain, les validations et l'alimentation directe des bases SQL.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 pt-4 border-t border-slate-800/80">
+                    <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-emerald-300">Power Apps</span>
+                    <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-emerald-300">Power Automate</span>
+                    <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-emerald-300">Connecteurs SQL</span>
+                </div>
+            </div>
+
+            <!-- Projet 4 -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-sky-500/50 transition flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-semibold uppercase tracking-wider text-amber-400">Data Science & Infrastructure • Master 2 Ynov</span>
+                        <i class="fa-solid fa-brain text-slate-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Modèles Machine Learning & Déploiement PCA/PRA</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-4">
+                        Développement de modèles prédictifs (Machine Learning & Deep Learning) en Python et mise en œuvre de plans de continuité et de reprise d'activité (PCA / PRA) garantissant la haute disponibilité et la sécurité des bases de données.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 pt-4 border-t border-slate-800/80">
+                    <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-amber-300">Python</span>
+                    <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-amber-300">Machine Learning</span>
+                    <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-amber-300">PCA / PRA</span>
+                    <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-amber-300">Sécurité BDD</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences Techniques -->
+    <section id="competences" class="py-20 bg-slate-900/50 border-y border-slate-800/80 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="mb-12">
+                <h2 class="text-3xl font-bold text-white">Stack Technique & Outils</h2>
+                <p class="text-slate-400 mt-2">Technologies maîtrisées en environnement de production et académique.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl">
+                    <div class="w-10 h-10 rounded-lg bg-sky-500/10 text-sky-400 flex items-center justify-center mb-4">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3 class="font-bold text-white mb-3">Bases de Données & ETL</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">SQL Server</span>
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">T-SQL</span>
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">MySQL</span>
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">SSIS</span>
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">SSMS / SSAS</span>
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">Talend</span>
+                    </div>
+                </div>
+
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl">
+                    <div class="w-10 h-10 rounded-lg bg-indigo-500/10 text-indigo-400 flex items-center justify-center mb-4">
+                        <i class="fa-solid fa-chart-column"></i>
+                    </div>
+                    <h3 class="font-bold text-white mb-3">BI & Power Platform</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">Power BI</span>
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">Power Query</span>
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">SAP BO</span>
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">Power Apps</span>
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">Power Automate</span>
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">Excel Avancé</span>
+                    </div>
+                </div>
+
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl">
+                    <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-4">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 class="font-bold text-white mb-3">Data Science & Langages</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">Python</span>
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">R</span>
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">Machine Learning</span>
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">Deep Learning</span>
+                    </div>
+                </div>
+
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl">
+                    <div class="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center mb-4">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3 class="font-bold text-white mb-3">Développement</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">Java</span>
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">C / C#</span>
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">PHP</span>
+                        <span class="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-200">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formation -->
+    <section id="formation" class="py-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div class="mb-12">
+            <h2 class="text-3xl font-bold text-white">Formation Académique</h2>
+            <p class="text-slate-400 mt-2">Mon socle universitaire en informatique, méthodes MIAGE et science des données.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl">
+                <span class="text-xs font-semibold px-2.5 py-1 rounded bg-sky-500/10 text-sky-400">2023 – 2025</span>
+                <h3 class="text-xl font-bold text-white mt-3">Master 2 Data Science</h3>
+                <p class="text-sky-400 text-sm font-medium mt-1">Ynov Campus — Aix-en-Provence</p>
+                <p class="text-sm text-slate-400 mt-3">
+                    Modèles Machine Learning & Deep Learning, traitement avancé des données, sécurité et sauvegarde des bases de données, déploiement PCA & PRA, automatisation T-SQL.
+                </p>
+            </div>
+
+            <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl">
+                <span class="text-xs font-semibold px-2.5 py-1 rounded bg-slate-800 text-slate-300">2020 – 2023</span>
+                <h3 class="text-xl font-bold text-white mt-3">Licence 3 MIAGE</h3>
+                <p class="text-sky-400 text-sm font-medium mt-1">Université d'Aix-Marseille</p>
+                <p class="text-sm text-slate-400 mt-3">
+                    Méthodes Informatiques Appliquées à la Gestion des Entreprises : conception et exploitation de bases de données MySQL, développement web et initiation à la Business Intelligence (Power BI).
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact & Formulaire Direct -->
+    <section id="contact" class="py-20 bg-slate-900/40 border-t border-slate-800/80 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Colonne Gauche : Coordonnées -->
+                <div class="lg:col-span-5 space-y-6">
+                    <h2 class="text-3xl sm:text-4xl font-bold text-white">Travaillons Ensemble</h2>
+                    <p class="text-slate-400 leading-relaxed">
+                        Vous recherchez un Ingénieur Data & IA ou un Data Analyst rigoureux pour renforcer vos équipes ou pour un projet d'automatisation ? Contactez-moi directement.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <a href="mailto:mahamatkore10@gmail.com" class="flex items-center gap-4 group">
+                            <div class="w-11 h-11 rounded-xl bg-blue-600/15 border border-blue-500/20 text-blue-400 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <span class="text-slate-200 font-medium group-hover:text-sky-400 transition">mahamatkore10@gmail.com</span>
+                        </a>
+
+                        <a href="tel:+33652073486" class="flex items-center gap-4 group">
+                            <div class="w-11 h-11 rounded-xl bg-blue-600/15 border border-blue-500/20 text-blue-400 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <span class="text-slate-200 font-medium group-hover:text-sky-400 transition">06 52 07 34 86</span>
+                        </a>
+
+                        <!-- Lien LinkedIn Contact -->
+                        <a href="https://www.linkedin.com/in/korè-mahamat-649763193" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4 group">
+                            <div class="w-11 h-11 rounded-xl bg-blue-600/15 border border-blue-500/20 text-blue-400 flex items-center justify-center group-hover:bg-[#0A66C2] group-hover:text-white transition">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                            <span class="text-slate-200 font-medium group-hover:text-sky-400 transition">linkedin.com/in/mahamat-kore</span>
+                        </a>
+
+                        <div class="flex items-center gap-4">
+                            <div class="w-11 h-11 rounded-xl bg-blue-600/15 border border-blue-500/20 text-blue-400 flex items-center justify-center">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <span class="text-slate-200 font-medium">20 rue de Cuques, 13100 Aix-en-Provence</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Colonne Droite : Formulaire -->
+                <div class="lg:col-span-7">
+                    <div class="bg-[#0b1120] border border-slate-800/90 rounded-3xl p-6 sm:p-8 shadow-2xl">
+                        <form id="contactForm" action="https://formsubmit.co/mahamatkore10@gmail.com" method="POST" class="space-y-5">
+                            <input type="hidden" name="_subject" value="Nouveau message depuis votre Portfolio Data !">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+
+                            <div class="grid sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label for="nom" class="block text-sm font-medium text-slate-200 mb-2">Votre Nom</label>
+                                    <input type="text" id="nom" name="Nom" required placeholder="Jean Dupont"
+                                        class="w-full px-4 py-3 rounded-xl bg-[#070b14] border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition">
+                                </div>
+                                <div>
+                                    <label for="email" class="block text-sm font-medium text-slate-200 mb-2">Votre Email</label>
+                                    <input type="email" id="email" name="Email" required placeholder="jean@exemple.com"
+                                        class="w-full px-4 py-3 rounded-xl bg-[#070b14] border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="sujet" class="block text-sm font-medium text-slate-200 mb-2">Sujet</label>
+                                <input type="text" id="sujet" name="Sujet" required placeholder="Proposition de poste / Mission Data"
+                                    class="w-full px-4 py-3 rounded-xl bg-[#070b14] border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition">
+                            </div>
+
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-slate-200 mb-2">Message</label>
+                                <textarea id="message" name="Message" rows="4" required placeholder="Bonjour Mahamat, je te contacte concernant..."
+                                    class="w-full px-4 py-3 rounded-xl bg-[#070b14] border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition resize-y"></textarea>
+                            </div>
+
+                            <button type="submit" id="submitBtn"
+                                class="w-full py-3.5 px-6 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold shadow-lg shadow-blue-600/25 transition flex items-center justify-center gap-2">
+                                <span>Envoyer le message</span>
+                                <i class="fa-solid fa-paper-plane text-sm"></i>
+                            </button>
+
+                            <div id="formFeedback" class="hidden p-4 rounded-xl text-sm font-medium text-center"></div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-900 py-8 px-4 text-center text-xs text-slate-500">
+        © 2026 Mahamat Kore — Aix-en-Provence • Portfolio Data Engineer & Data Analyst
+    </footer>
+
+    <!-- Script d'envoi fluide -->
+    <script>
+        const form = document.getElementById('contactForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const feedback = document.getElementById('formFeedback');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> <span>Envoi en cours...</span>';
+
+            fetch('https://formsubmit.co/ajax/mahamatkore10@gmail.com', {
+                method: 'POST',
+                headers: { 'Accept': 'application/json' },
+                body: new FormData(form)
+            })
+            .then(response => response.json())
+            .then(data => {
+                feedback.className = 'p-4 rounded-xl text-sm font-medium text-center bg-emerald-500/10 border border-emerald-500/30 text-emerald-400';
+                feedback.textContent = 'Merci ! Votre message a bien été envoyé à Mahamat.';
+                feedback.classList.remove('hidden');
+                form.reset();
+            })
+            .catch(error => {
+                feedback.className = 'p-4 rounded-xl text-sm font-medium text-center bg-red-500/10 border border-red-500/30 text-red-400';
+                feedback.textContent = 'Une erreur est survenue. Vous pouvez écrire directement à mahamatkore10@gmail.com.';
+                feedback.classList.remove('hidden');
+            })
+            .finally(() => {
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = '<span>Envoyer le message</span> <i class="fa-solid fa-paper-plane text-sm"></i>';
+            });
+        });
+    </script>
+
+</body>
+</html>
